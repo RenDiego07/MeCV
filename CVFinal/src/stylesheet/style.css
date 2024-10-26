@@ -103,6 +103,11 @@ li >a:hover{
     color: white;
 
 }
+.resume-content > p {
+    max-width: 95%;
+    color: white;
+    font-size: 25px;
+}
 
 .resume-content > h3 {
     font-size: 5rem;
@@ -128,9 +133,9 @@ li >a:hover{
     
 }
 */
-#Education_Header, #Skills_Header{
+#Education_Header, #Skills_Header, #Project_Header{
     position: relative;
-    margin-top: 120px;
+    margin-top: 60px;
     display: grid;
     grid-template-columns: 200px 200px auto;
     grid-template-rows: 200px;
@@ -138,6 +143,18 @@ li >a:hover{
    
 }
 
+#Education_DivLeft{
+
+    max-width: 400px;
+    align-content: center;
+    align-items: center;
+    display: flex;
+}
+#Education_DivRight{
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
 .Labelh2 {
     display: flex;
     position: absolute;
@@ -150,6 +167,8 @@ li >a:hover{
     grid-row-start: 2;
 }
 .stColumnGridImage{
+    height: 150px;
+    margin-left: 20px;
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 1;  
@@ -160,16 +179,25 @@ li >a:hover{
 
 #Education{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+    gap: 12rem;
     height: 400px;
+    flex-wrap: wrap;
 }
-#Education  .EducationDivInf{
+
+#Education > div > p{
+    color: white;
+    font-weight:700;
+    font-size: 20px;
+}
+#Skills{
     display: flex;
-    flex-basis: 300px;
-    border-radius: 30px;
+    height: 450px;
+    gap: 16rem;
 
 }
+
 
 .horizontal-line{
     position: absolute;
@@ -230,10 +258,11 @@ li >a:hover{
     width: 4rem;
     height: 4rem;
     background-color: transparent;
-    border: 0.2rem solid #2b1055;
+    border: 0.2rem solid orange;
     font-size: 2rem;
     border-radius: 50%;
     margin: 3rem 1.5rem 3rem ;
+    color: white;
 
   }
 
@@ -248,5 +277,7 @@ li >a:hover{
   span{
     color: orange;
   }
+
+
   
 
