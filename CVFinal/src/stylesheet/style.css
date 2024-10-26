@@ -67,6 +67,18 @@ li >a:hover{
 
 }
 
+.Headers {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    align-items:center;
+    justify-content: center;
+    width: 100%;
+    font-size: larger;
+
+}
+
 
 
 
@@ -133,15 +145,7 @@ li >a:hover{
     
 }
 */
-#Education_Header, #Skills_Header, #Project_Header{
-    position: relative;
-    margin-top: 60px;
-    display: grid;
-    grid-template-columns: 200px 200px auto;
-    grid-template-rows: 200px;
 
-   
-}
 
 #Education_DivLeft{
 
@@ -155,26 +159,6 @@ li >a:hover{
     align-items: center;
     align-content: center;
 }
-.Labelh2 {
-    display: flex;
-    position: absolute;
-    left: 10px;
-    color: black;
-    top: 70px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;  
-    grid-row-start: 2;
-}
-.stColumnGridImage{
-    height: 150px;
-    margin-left: 20px;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;  
-    grid-row-start: 2;
-}
-
 
 
 #Education{
@@ -192,11 +176,104 @@ li >a:hover{
     font-size: 20px;
 }
 #Skills{
+    display: grid;
+    margin-left: 10%;
+    margin-right: 10%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 400px 400px 400px 400px;
+    gap: 3rem;
+}
+
+
+#Java{
     display: flex;
-    height: 450px;
-    gap: 16rem;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start: 1;
+    grid-row-end:2
+}
+#JS {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end:2
+}
+#Python{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end:3
 
 }
+#SQL{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end:3;
+
+}
+#Rust{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:3;
+    grid-row-end: 4;
+}
+
+#C{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start:2;
+    grid-column-end:3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#Typescript {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 1;
+    grid-column-end:2;
+    grid-row-start:4;
+    grid-row-end:5;
+}
+#HTML{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-start: 2;
+    grid-column-end:3;
+    grid-row-start:4;
+    grid-row-end:5;
+
+}
+
+
+.logo{
+    height: 250px;
+}
+
+
+
+
+
+
 
 
 .horizontal-line{
@@ -277,6 +354,8 @@ li >a:hover{
   span{
     color: orange;
   }
+
+
 
 
   
