@@ -154,13 +154,15 @@ li >a:hover{
     align-items: center;
     display: flex;
 }
-#Education_DivRight{
+
+#topo{
     display: flex;
-    align-items: center;
-    align-content: center;
+    gap: 10rem;
+    flex-basis: 90%;
+    border-radius: 10%;
+    justify-content: center;
+    color: white;
 }
-
-
 #Education{
     display: flex;
     align-items: center;
@@ -170,11 +172,7 @@ li >a:hover{
     flex-wrap: wrap;
 }
 
-#Education > div > p{
-    color: white;
-    font-weight:700;
-    font-size: 20px;
-}
+
 #Skills{
     display: grid;
     margin-left: 10%;
