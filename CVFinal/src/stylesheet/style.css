@@ -152,11 +152,12 @@ li >a:hover{
 */
 
 #divDescription{
-    height: 300px;
+    height: 700px;
     display: flex;
     justify-content: center;
     align-items:flex-start;
     text-align:center;
+    
 
 }
 #divDescription >div {
@@ -165,7 +166,9 @@ li >a:hover{
     color: white;
     font-weight: bolder;
     font-size:larger;
+    position: relative;
 }
+
 #Education_DivRight{
     display: flex;
     justify-content: center;
@@ -432,6 +435,7 @@ tr{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 #Contact > div {
@@ -454,6 +458,7 @@ tr{
     grid-row: repeat(3, 1fr);
 
 }
+
 .rowContact{
     display: flex;
     justify-content: center;
@@ -462,10 +467,28 @@ tr{
     flex-direction: column;
     
 }
+.rowContact> div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+#RightContactDiv{
+    margin: 30px;
+}
 
+#RightContactDiv > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    gap: 40px;
 
-.imgContact{
-    position: absolute;
+}
+.inputs{
+    margin-bottom: 20px;
+    height: 30px;
+    border-radius: 10px;
 }
 
 
