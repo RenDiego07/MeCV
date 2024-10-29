@@ -23,6 +23,10 @@ header{
 
 }
 
+.textHeader{
+    font-size: 3rem;
+}
+
 body{
     min-height: 100vh;
     background: linear-gradient(#2b1055, #7597de)
@@ -108,6 +112,7 @@ li >a:hover{
         
 
 }
+
 .resume-content > h1 {
     font-size: 6rem;
     font-weight: 700;
@@ -146,21 +151,42 @@ li >a:hover{
 }
 */
 
+#divDescription{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    text-align:center;
+
+}
+#divDescription >div {
+
+    width: 660px;
+    color: white;
+    font-weight: bolder;
+    font-size:larger;
+}
+#Education_DivRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 #Education_DivLeft{
-
-    max-width: 500px;
+    height: 400px;
+    width: 490px;
+    display: flex;
     align-content: center;
     align-items: center;
-    display: flex;
+    border-radius: 20px;
 }
 
 #topo{
     display: flex;
-    
     gap: 12rem;
     flex-basis: 90%;
-    border-radius: 10%;
+    border-radius: 10px;
     justify-content: center;
     color: white;
     font-size: larger;
@@ -170,7 +196,7 @@ li >a:hover{
 #Education{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:space-around;
     gap: 12rem;
     height: 400px;
     flex-wrap: wrap;
@@ -401,8 +427,46 @@ tr{
 }
 
 #Contact{
-    height: 300px;
-    background: #7599de
+    height: 700px;
+    background-color: #5A7BC4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+#Contact > div {
+    background-color:antiquewhite;
+    height: 600px;
+    width: 1000px;
+    display: grid;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,.4);
+    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+
+}
+
+#LeftContactDiv{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: antiquewhite;
+    display: grid;
+    grid-row: repeat(3, 1fr);
+
+}
+.rowContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    
+}
+
+
+.imgContact{
+    position: absolute;
+}
+
+
 
